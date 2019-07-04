@@ -1,0 +1,42 @@
+body{
+  font-family: "Quicksand", sans-serif;
+}
+.container{
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  max-width: 500px;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.overflow{
+  position: relative;
+  margin: 0px auto;
+  width: 220px;
+  overflow: hidden;
+  text-align: right;
+}
+.text{
+  display: inline-block;
+  border-bottom: 2px solid #333;
+  overflow: hidden;
+  margin: 5px 0px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+span{
+  display: inline-block;
+  padding: 0px 0px 0px 5px;
+  letter-spacing: 1px;
+}
+.square{
+  width: 200px;
+  height: 200px;
+  border: 0px solid #333;
+  position: absolute;
+  box-sizing: border-box;
+  top: 50%;
+  left: 70%;
+}
